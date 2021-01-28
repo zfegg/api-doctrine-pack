@@ -1,0 +1,19 @@
+{
+    "name": "zfegg/api-doctrine-pack",
+    "description": "A pack for the restful API for Doctrine.",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moln",
+            "email": "moln.xie@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "*",
+        "zfegg/api-resource-doctrine": "*",
+        "zfegg/api-restful-handler": "*",
+        "zfegg/api-serializer-ext": "*",
+        "symfony/property-access": "*"
+    }
+}
